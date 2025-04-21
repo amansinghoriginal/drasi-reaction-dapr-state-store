@@ -1,0 +1,107 @@
+#----------------------------------
+# General
+#----------------------------------
+# OS
+.DS_Store
+Thumbs.db
+
+#----------------------------------
+# Visual Studio
+#----------------------------------
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+*.dbmdl
+*.pdb
+*.psess
+*.vsp*
+*.vsmdi
+TestResults/
+Generated\ Files/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Build results
+[Bb]in/
+[Oo]bj/
+**/[Bb]in/
+**/[Oo]bj/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+# Enable relocating packages folder by uncommenting:
+# packages/*/
+# NuGet v3
+*.nuget.props
+*.nuget.targets
+
+#----------------------------------
+# .NET / C#
+#----------------------------------
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.deps.json
+*.runtimeconfig.json
+*.runtimeconfig.dev.json
+*.csproj.user
+*.vbproj.user
+
+# Rider
+.idea/
+
+#----------------------------------
+# Python
+#----------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+pip-wheel-metadata/
+.eggs/
+.installed.cfg
+*.manifest
+*.spec
+*.log
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.conda/
+*.venv/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# mypy / coverage / tox
+.mypy_cache/
+.pytest_cache/
+.coverage
+.tox/
+
+#----------------------------------
+# Visual Studio Code
+#----------------------------------
+.vscode/
+.history/
+*.code-workspace
+
+#----------------------------------
+# End of file
+#----------------------------------
